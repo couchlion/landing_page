@@ -50,7 +50,7 @@ li {
     width: 400px;
 }
 
-p {
+.title p {
     font-size: 18px;
     color: #E5E7EB;
 }
@@ -65,7 +65,7 @@ button {
 }
 
 img {
-    border-style: ridge;
+    border-style: hidden;
     background-color: gray;
     height: auto;
     width: 500px;
@@ -81,17 +81,55 @@ img {
 
 .items {
     display: flex;
-    justify-content: space-evenly;
-    padding: 20px;
+    align-items: center;
+    margin-top: 50px;
+    justify-content: center;
+    gap: 32px;
 }
 
 .item {
-    display: inline-block;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.caption {
-    display: block;
+.item img {
+    border-style: ridge;
+    border-color: #3882F6;
+    height: 150px;
+    width: 150px;
+    background-color: white;
+    border-radius: 25px;
+}
+
+.item p {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    height: 150px;
+    width: 150px;
+    align-content: center;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    width: auto;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 150px;
+}
+
+.thor {
+    font-size: 36px;
+    font-weight: bold;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.quote p {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
 }
 
 ul {
