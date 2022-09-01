@@ -21,6 +21,8 @@ body {
     font-size: 24px;
     color: #F9FAF8;
     justify-content: flex-start;
+    font-weight: 900;
+    
 }
 
 li {
@@ -180,6 +182,19 @@ img {
     border: 2px solid white;
 }
 
+.footer {
+    background-color: #1F2937;
+    color: white;
+    height: 100px;
+    width: auto;
+}
+
+.end {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 25px;
+}
 .text {
     color: white;
 }
