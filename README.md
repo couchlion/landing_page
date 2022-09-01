@@ -10,4 +10,5 @@ https://screenrant.com/colossus-xmen-marvel-comic-origin-power-explained/
 
 Info Section: 
 https://gentlemanvillian.wordpress.com/2013/01/27/colossus/
+https://comicvine.gamespot.com/colossus/4005-1460/images/
 
